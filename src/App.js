@@ -14,7 +14,7 @@ class App extends Component {
 
     // Get all products when the app is initialized
     componentWillMount() {
-        const url = 'http://rs-node-cms.herokuapp.com/products.json';
+        const url = 'https://rs-node-cms.herokuapp.com/pages';
         axios.get(
             url
         ).then(
